@@ -1,139 +1,115 @@
-
-
-*{
-    margin: 0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
- 
 body {
   /* background-color: rgb(0, 0, 0,0.1); */
   z-index: -2;
   margin: 0;
   /* padding: 0; */
-  background-image: url(./stad.jpg);
+  background-image: url(/img/stad.jpg);
   background-size: cover;
-   background-attachment: fixed;
+  background-attachment: fixed;
   /* z-index: 2; */
 }
-
 
 .logo {
   /* float: right; */
   padding: 3em;
   margin-left: 70%;
-  margin-top:3%;
+  margin-top: 3%;
   width: 8%;
   position: fixed;
   /* height: 20%; */
 }
 .navigator ul {
-   background-color: rgba(245, 245, 245, 0.9); 
+  background-color: rgba(245, 245, 245, 0.9);
   display: flex;
   justify-content: space-around;
   /* flex-direction: row; */
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;
   margin: 1em;
-  margin-top:0px ;
+  margin-top: 0px;
   list-style-type: none;
 }
-  
-  /* Style the links inside the navigation bar */
 
+/* Style the links inside the navigation bar */
 
-
-  .navigator a {
-    color: #363535;
-    /* text-align: start; */
-    font-size: 20px;
-    font: bold;
-    text-decoration: none;
+.navigator a {
+  color: #363535;
+  /* text-align: start; */
+  font-size: 20px;
+  font: bold;
+  text-decoration: none;
 }
-  
-  
-  /* Change the color of links on hover */
-  .navigator a:hover {
-    background-color: rgb(255, 255, 255,.4);
-    color: black;
-   
 
-  }
-  
-  /* Add an active class to highlight the current page */
-  .navigator a.active {
-    background-color: rgb(67, 109, 67,.4);
-    color: rgb(95, 47, 47);
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
+/* Change the color of links on hover */
+.navigator a:hover {
+  background-color: rgb(255, 255, 255, 0.4);
+  color: black;
+}
 
+/* Add an active class to highlight the current page */
+.navigator a.active {
+  background-color: rgb(67, 109, 67, 0.4);
+  color: rgb(95, 47, 47);
+}
 
-.viewer{
-    
+/* Hide the link that should open and close the topnav on small screens */
 
-    font-size: xx-large;
-    text-decoration: none;
+.viewer {
+  font-size: xx-large;
+  text-decoration: none;
 
-    color: rgb(94, 30, 18);
-
+  color: rgb(94, 30, 18);
 }
 .events a:hover {
-  background-color: rgb(255, 255, 255,.4);
+  background-color: rgb(255, 255, 255, 0.4);
   color: black;
- 
-
 }
 
 /* Add an active class to highlight the current page */
 .events a.active {
-  background-color: rgb(67, 109, 67,.4);
+  background-color: rgb(67, 109, 67, 0.4);
   color: rgb(95, 47, 47);
 }
 
-.container .w3-table-all{
+.container .w3-table-all {
+  padding: 5em;
 
-    padding: 5em;
-
-    color: rgb(87, 24, 24);
-    font-size: 29px;
-    width:70%;
-    background: rgb(252, 252, 252,.6);
-
+  color: rgb(87, 24, 24);
+  font-size: 29px;
+  width: 70%;
+  background: rgb(252, 252, 252, 0.6);
 }
-.about{
+.about {
+  color: rgb(11, 31, 27);
+  display: flex;
+  flex-direction: column;
 
-    color: rgb(11, 31, 27);
-display:flex;
-flex-direction: column;
-
-margin:6% 20% auto 6%;
-padding-top: 50px;
-background: rgb(252, 252, 252,.35);
-
+  margin: 6% 20% auto 6%;
+  padding-top: 50px;
+  background: rgb(252, 252, 252, 0.35);
 }
-.about .Paragraph{
-    color: rgb(59, 15, 15);
-    line-break: auto;
-    line-height: 1.7em;
-    font-style: oblique;
-    font-size: 21px;
-
+.about .Paragraph {
+  color: rgb(59, 15, 15);
+  line-break: auto;
+  line-height: 1.7em;
+  font-style: oblique;
+  font-size: 21px;
 }
 
-
-
-.wrapper{
+.wrapper {
   display: flex;
   width: 75%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-
-.wrapper h1{
+.wrapper h1 {
   padding-bottom: 40px;
 }
 td {
@@ -141,139 +117,123 @@ td {
   padding: 9px 9px 20px 0px;
 }
 
-  footer {
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    height: 1.7rem;            /* Footer height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(131, 131, 131);
-    color: rgb(87, 24, 24);
-    position: fixed;
-  }
-.contact{
-
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 1.7rem; /* Footer height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131, 131, 131);
+  color: rgb(87, 24, 24);
+  position: fixed;
+}
+.contact {
   font-size: 25px;
-  margin:15%;
-
+  margin: 15%;
 }
-.welcome{
-  margin:8%;
+.welcome {
+  margin: 8%;
 }
 
-.right{
+.right {
   display: flex;
   flex-direction: column;
 }
-.left{
+.left {
   display: flex;
 }
 
-.tables{
+.tables {
   display: flex;
   align-content: center;
   padding: 10em 5em 4em 0em;
-  background: rgb(255, 255, 255,.35);
-
+  background: rgb(255, 255, 255, 0.35);
 
   flex-direction: column;
-
-  
 }
-.rules{
+.rules {
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   align-items: center;
   margin: 2em;
   padding-left: 200px;
 }
-.rulesheader{
-margin: 50px 50px 50px 200px;
-  
-
+.rulesheader {
+  margin: 50px 50px 50px 200px;
 }
-.rules-content{
+.rules-content {
   display: flex;
-  color: #181616;;
-  flex-direction:column ;
+  color: #181616;
+  flex-direction: column;
   align-items: flex-start;
   margin-left: 200px;
   margin-bottom: 90px;
   flex-wrap: nowrap;
   width: 70%;
   font-size: 20px;
-  background: rgb(255, 255, 255,.5);
+  background: rgb(255, 255, 255, 0.5);
   line-height: 1.5em;
-
- 
 }
 .rules-content * {
   margin-left: 20px;
 }
-h4 ~ ol, ul {
+h4 ~ ol,
+ul {
   padding-left: 35px;
 }
-.maps{
+.maps {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 22px;
   text-decoration: underline;
-line-height: 2em;
+  line-height: 2em;
   font-weight: bold;
-  background: rgb(255, 255, 255,.35);
-
-  
+  background: rgb(255, 255, 255, 0.35);
 }
 
-
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.describe{
+.describe {
   display: flex;
   padding: 2em;
-    flex-direction: column;
-    background: rgb(255, 255, 255,.35);
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 3%;
-
-
-
-} 
-.PHONE-EMAIL{
+  flex-direction: column;
+  background: rgb(255, 255, 255, 0.35);
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.PHONE-EMAIL {
   display: flex;
   padding: 1em;
   margin: 5%;
-  width: 500PX;
-  justify-content:space-between ;
-  background: rgb(255, 255, 255,.35);
-
-
+  width: 500px;
+  justify-content: space-between;
+  background: rgb(255, 255, 255, 0.35);
 }
-.form{
+.form {
   display: flex;
   padding: 4em;
-  background: rgb(255, 255, 255,.35);
+  background: rgb(255, 255, 255, 0.35);
   align-content: space-between;
-
 }
 
-.feedback{
+.feedback {
   display: flex;
   width: 1300;
   flex-direction: column;
   align-items: center;
-  background: rgb(255, 255, 255,.35);
+  background: rgb(255, 255, 255, 0.35);
   background-size: cover;
   margin: 76px;
 }
-.feedback-table{
-margin: 50px;}
+.feedback-table {
+  margin: 50px;
+}
 
 .name {
   display: flex;
@@ -285,84 +245,68 @@ margin: 50px;}
 .name label:nth-child(3) {
   margin-left: 10px;
 }
-.school{
+.school {
   display: flex;
-align-items: space-between;
-
+  align-items: space-between;
 }
 
-
-.schoolcheckbox1{
+.schoolcheckbox1 {
   display: flex;
-
 }
 
-
-.firsthalfcheckbox1{
+.firsthalfcheckbox1 {
   display: flex;
   flex-direction: column;
-
 }
-.secondhalfcheckbox1{
+.secondhalfcheckbox1 {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
-
-
 }
-.schoolcheckbox1{
+.schoolcheckbox1 {
   display: flex;
-
-
 }
-.schoolcheckbox2{
+.schoolcheckbox2 {
   display: flex;
-
-
 }
-.city-zip *{
-flex-grow: 1;
+.city-zip * {
+  flex-grow: 1;
 }
-.secondschool{
+.secondschool {
   margin-left: 160px;
 }
 
-.firsthalfcheckbox2{
+.firsthalfcheckbox2 {
   display: flex;
   flex-direction: column;
 }
-.secondhalfcheckbox2{
+.secondhalfcheckbox2 {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
-
-
 }
-.position{
+.position {
   display: flex;
 }
-.tiny{
+.tiny {
   font: 5px;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 7px;
 }
-.permission{
+.permission {
   text-decoration: underline;
   padding-top: 10px;
-
-
 }
 
-.location{
+.location {
   display: flex;
-  background: rgb(255, 255, 255,.35);
+  background: rgb(255, 255, 255, 0.35);
   flex-wrap: wrap;
   padding-top: 30px;
   padding-right: 100px;
-
 }
-.school1{
+.school1 {
   padding: 1em;
 }
